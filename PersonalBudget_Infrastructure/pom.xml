@@ -5,6 +5,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PersonalBudget_Infrastructure</name>
 	<description>Componente que contiene los adaptadores o mecanismos de acceso a fuentes externas como bases de datos, servicios web, archivos y otros para la aplicación Personal Budget.</description>
+	<properties>
+		<sonar.organization>22022-uco-ing-soft-ii</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>

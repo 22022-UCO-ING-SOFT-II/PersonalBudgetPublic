@@ -5,6 +5,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PersonalBudget_Application</name>
 	<description>Componente donde se encuentra alojada toda la lógica de negocio del proyecto Personal Budget.</description>
+	<properties>
+		<sonar.organization>22022-uco-ing-soft-ii</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
